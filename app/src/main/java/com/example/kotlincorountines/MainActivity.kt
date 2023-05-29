@@ -37,7 +37,7 @@ var b1= async(Dispatchers.IO) {
 
   private suspend fun netcall1():String{
       delay(1000)
-      Log.d("ccc","job1.toString()")
+      Log.d("cc","job1.toString()")
 
       return "dddd"
   }
