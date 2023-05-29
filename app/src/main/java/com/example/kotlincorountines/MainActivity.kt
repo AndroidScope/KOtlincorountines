@@ -34,7 +34,9 @@ var b1= async(Dispatchers.IO) {
 
 
     }
+fun add1(){
 
+}
   private suspend fun netcall1():String{
       delay(1000)
       Log.d("cc","job1.toString()")
