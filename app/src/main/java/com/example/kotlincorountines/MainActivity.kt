@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_main)
-        text=findViewById(R.id.text)
+        text=findViewById(R.id.tex)
 runBlocking {
     var job1:String?=null
     var job2:String?=null
